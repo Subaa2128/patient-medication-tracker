@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544246991928",
+    "project_id": "patient-medication-track-c8e73",
+    "storage_bucket": "patient-medication-track-c8e73.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544246991928:android:3c2d4ab70ada71d2bf2acd",
+        "android_client_info": {
+          "package_name": "com.kauvery.patient_medica_tiontracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXF8KoFfaAHkD-uO7YgCYo5qO7Drt1Lek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "patient-medication-tracker",
+    "slug": "patient-medication-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "expo": {
+      "plugins": ["expo-notifications"],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.example.myreminderapp",
+        "infoPlist": {
+          "NSAllowsArbitraryLoads": true,
+          "NSUserNotificationsUsageDescription": "We need permission to send notifications."
+        }
+      },
+      "android": {
+        "package": "com.example.myreminderapp",
+        "permissions": ["NOTIFICATIONS"]
+      }
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
